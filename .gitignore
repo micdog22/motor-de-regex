@@ -1,0 +1,24 @@
+# Sistema
+.DS_Store
+
+# Build (make e cmake usam build/)
+build/
+dist/
+*.o
+*.a
+*.dSYM/
+coverage/
+
+# Executáveis, caso sejam compilados fora de build/
+/rgrep
+/test_rx
+/rx_teste
+
+# Python (o teste diferencial)
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Outras linguagens
+node_modules/
